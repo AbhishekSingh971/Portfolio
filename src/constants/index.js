@@ -240,32 +240,32 @@ const projects = [
       },
     ],
     image: movie,
-    repo: '',
+    repo: 'https://github.com/AbhishekSingh971/Movix',
     demo: '',
-  },
-  {
-    id: 'project-5',
-    name: 'Nyeusi Fest Site',
-    description:
-      'This is a demo concert website for a music festival called Nyeusi.',
-    tags: [
-      {
-        name: 'nextjs',
-        color: 'blue',
-      },
-      {
-        name: 'supabase',
-        color: 'green',
-      },
-      {
-        name: 'css',
-        color: 'pink',
-      },
-    ],
-    image: nyeusi,
-    repo: 'https://github.com/shaqdeff/Nyeusi-Fest-Site',
-    demo: 'https://shaqdeff.github.io/Nyeusi-Fest-Site/',
-  },
+  }
+  // {
+  //   id: 'project-5',
+  //   name: 'Nyeusi Fest Site',
+  //   description:
+  //     'This is a demo concert website for a music festival called Nyeusi.',
+  //   tags: [
+  //     {
+  //       name: 'nextjs',
+  //       color: 'blue',
+  //     },
+  //     {
+  //       name: 'supabase',
+  //       color: 'green',
+  //     },
+  //     {
+  //       name: 'css',
+  //       color: 'pink',
+  //     },
+  //   ],
+  //   image: nyeusi,
+  //   repo: 'https://github.com/shaqdeff/Nyeusi-Fest-Site',
+  //   demo: 'https://shaqdeff.github.io/Nyeusi-Fest-Site/',
+  // },
 ];
 
 export { services, technologies, experiences, projects };

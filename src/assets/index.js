@@ -46,7 +46,7 @@ import microverse from './company/microverse.png';
 import weather from './projects/weather.png';
 import disney from './projects/Disney.png';
 import textManipulator from './projects/textManipulator.png';
-import movie from './projects/movie-metro.png';
+import movie from './projects/movie.png';
 import nyeusi from './projects/nyeusi.png';
 import space from './projects/space-hub.png';
 
