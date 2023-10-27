@@ -27,6 +27,7 @@ import {
   kelhel,
   microverse,
   express,
+  ecommerce,
 } from '../assets/index';
 
 export const navLinks = [
@@ -242,30 +243,30 @@ const projects = [
     image: movie,
     repo: 'https://github.com/AbhishekSingh971/Movix',
     demo: 'https://653bd09d1a881c063284a899--shimmering-fudge-e70242.netlify.app/',
-  }
-  // {
-  //   id: 'project-5',
-  //   name: 'Nyeusi Fest Site',
-  //   description:
-  //     'This is a demo concert website for a music festival called Nyeusi.',
-  //   tags: [
-  //     {
-  //       name: 'nextjs',
-  //       color: 'blue',
-  //     },
-  //     {
-  //       name: 'supabase',
-  //       color: 'green',
-  //     },
-  //     {
-  //       name: 'css',
-  //       color: 'pink',
-  //     },
-  //   ],
-  //   image: nyeusi,
-  //   repo: 'https://github.com/shaqdeff/Nyeusi-Fest-Site',
-  //   demo: 'https://shaqdeff.github.io/Nyeusi-Fest-Site/',
-  // },
+  },
+  {
+    id: 'project-5',
+    name: 'Kharido',
+    description:
+      'This is a demo concert website for a music festival called Nyeusi.',
+    tags: [
+      {
+        name: 'ReactJs',
+        color: 'blue',
+      },
+      {
+        name: 'supabase',
+        color: 'green',
+      },
+      {
+        name: 'css',
+        color: 'pink',
+      },
+    ],
+    image: ecommerce,
+    repo: 'https://github.com/AbhishekSingh971/Ecommerce-frontend.git',
+    demo: 'https://ecommerce-frontend-five-omega.vercel.app/',
+  },
 ];
 
 export { services, technologies, experiences, projects };

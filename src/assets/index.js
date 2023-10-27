@@ -47,6 +47,7 @@ import weather from './projects/weather.png';
 import disney from './projects/Disney.png';
 import textManipulator from './projects/textManipulator.png';
 import movie from './projects/movie.png';
+import ecommerce from './projects/ecommerce.png';
 import nyeusi from './projects/nyeusi.png';
 import space from './projects/space-hub.png';
 
@@ -96,4 +97,5 @@ export {
   dcc,
   kelhel,
   microverse,
+  ecommerce
 };
