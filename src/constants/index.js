@@ -241,7 +241,7 @@ const projects = [
     ],
     image: movie,
     repo: 'https://github.com/AbhishekSingh971/Movix',
-    demo: '',
+    demo: 'https://653bd09d1a881c063284a899--shimmering-fudge-e70242.netlify.app/',
   }
   // {
   //   id: 'project-5',
