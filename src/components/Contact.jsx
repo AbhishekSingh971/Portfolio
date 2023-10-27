@@ -33,7 +33,7 @@ const Contact = () => {
         'template_e5xbb1q', // paste your TemplateID here (you'll find it under email templates).
         {
           from_name: form.name,
-          to_name: 'Abhishek', // put your name here.
+          to_name: 'Abhi', // put your name here.
           from_email: form.email,
           to_email: 'abhitil654@gmail.com', //put your email here.
           message: form.message,
