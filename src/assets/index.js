@@ -38,10 +38,8 @@ import java from './tech/java.png';
 import mongodb from './tech/mongodb.png';
 import express from './tech/express.png';
 
-import coverhunt from './company/coverhunt.png';
-import dcc from './company/dcc.png';
-import kelhel from './company/kelhel.png';
-import microverse from './company/microverse.png';
+import codsoft from './company/codsoft.png';
+import ibm from './company/ibm.png';
 
 import weather from './projects/weather.png';
 import disney from './projects/Disney.png';
@@ -93,9 +91,7 @@ export {
   movie,
   nyeusi,
   space,
-  coverhunt,
-  dcc,
-  kelhel,
-  microverse,
+  codsoft,
+  ibm,
   ecommerce
 };

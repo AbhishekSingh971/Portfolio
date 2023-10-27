@@ -20,12 +20,8 @@ import {
   disney,
   textManipulator,
   movie,
-  nyeusi,
-  space,
-  coverhunt,
-  dcc,
-  kelhel,
-  microverse,
+  codsoft,
+  ibm,
   express,
   ecommerce,
 } from '../assets/index';
@@ -58,10 +54,10 @@ const services = [
     title: 'UI/UX Design',
     icon: ux,
   },
-  {
-    title: 'Software Prototyping',
-    icon: prototyping,
-  },
+  // {
+  //   title: 'Software Prototyping',
+  //   icon: prototyping,
+  // },
 ];
 
 const technologies = [
@@ -138,19 +134,19 @@ const experiences = [
   //   iconBg: '#333333',
   //   date: 'Mar 2022 - May 2022',
   // },
-  // {
-  //   title: 'Junior Software Engineer',
-  //   company_name: 'Kelhel',
-  //   icon: kelhel,
-  //   iconBg: '#333333',
-  //   date: 'May 2022 - Oct 2022',
-  // },
   {
-    title: 'Full Stack Developer',
-    company_name: 'Star Fire Company',
-    icon: dcc,
+    title: 'Front-end Development',
+    company_name: 'IBM',
+    icon: ibm,
     iconBg: '#333333',
-    date: 'June 2023 - Present',
+    date: 'June 2023 - July 2023',
+  },
+  {
+    title: 'Web Development',
+    company_name: 'Codsof',
+    icon: codsoft,
+    iconBg: '#333333',
+    date: 'Aug 2023 - Sep 2023',
   },
 ];
 
