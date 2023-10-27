@@ -2,7 +2,7 @@ import {
   frontend,
   backend,
   ux,
-  prototyping,
+  // prototyping,
   javascript,
   html,
   css,
