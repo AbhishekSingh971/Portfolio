@@ -46,8 +46,7 @@ import disney from './projects/Disney.png';
 import textManipulator from './projects/textManipulator.png';
 import movie from './projects/movie.png';
 import ecommerce from './projects/ecommerce.png';
-import nyeusi from './projects/nyeusi.png';
-import space from './projects/space-hub.png';
+import whatsapp from './projects/whatsapp-clone.png';
 
 export {
   bwmap,
@@ -89,9 +88,8 @@ export {
   disney,
   textManipulator,
   movie,
-  nyeusi,
-  space,
   codsoft,
   ibm,
-  ecommerce
+  ecommerce,
+  whatsapp
 };
