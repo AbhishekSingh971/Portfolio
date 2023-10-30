@@ -25,6 +25,7 @@ import {
   express,
   ecommerce,
   whatsapp,
+  cargoa
 } from "../assets/index";
 
 export const navLinks = [
@@ -286,6 +287,28 @@ const projects = [
     repo: "https://github.com/AbhishekSingh971/Whatsapp-clone-frontend.git",
     demo: "https://delicate-buttercream-18e55e.netlify.app/",
   },
+  {
+    id: "project-7",
+    name: "Cargoa",
+    description: "This is a website for helping manufacturer and transporter.",
+    tags: [
+      {
+        name: "ReactJs",
+        color: "blue",
+      },
+      {
+        name: "supabase",
+        color: "green",
+      },
+      {
+        name: "css",
+        color: "pink",
+      },
+    ],
+    image: cargoa,
+    repo: "https://github.com/AbhishekSingh971/Cargoa_Frontend.git",
+    demo: "https://cargoa-frontend-mu.vercel.app/",
+  }
 ];
 
 export { services, technologies, experiences, projects };

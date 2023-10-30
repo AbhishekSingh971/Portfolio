@@ -47,6 +47,7 @@ import textManipulator from './projects/textManipulator.png';
 import movie from './projects/movie.png';
 import ecommerce from './projects/ecommerce.png';
 import whatsapp from './projects/whatsapp-clone.png';
+import cargoa from './projects/cargoa.png';
 
 export {
   bwmap,
@@ -91,5 +92,6 @@ export {
   codsoft,
   ibm,
   ecommerce,
-  whatsapp
+  whatsapp,
+  cargoa
 };
