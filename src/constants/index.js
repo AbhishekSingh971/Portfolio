@@ -1,20 +1,40 @@
 import {
   frontend,
   backend,
+  androidDeveloper,
   ux,
   // prototyping,
   javascript,
+  typescript,
   html,
   css,
+  tailwind,
   jquery,
   java,
   php,
   mongodb,
+  flutter,
+  dart,
+  nextjs,
+  mui,
+  supabase,
+  firebase,
+  postgresql,
+  mysql,
+  fastapi,
+  api,
+  docker,
   redux,
   reactjs,
   python,
   nodejs,
   git,
+  github,
+  linux,
+  cpp,
+  dio,
+  bloc,
+  json,
   bootstrap,
   weather,
   disney,
@@ -53,6 +73,10 @@ const services = [
     icon: backend,
   },
   {
+    title: "Android Developer",
+    icon: androidDeveloper,
+  },
+  {
     title: "UI/UX Design",
     icon: ux,
   },
@@ -63,6 +87,51 @@ const services = [
 ];
 
 const technologies = [
+  // const technologies = [
+  //   {
+  //     name: "HTML 5",
+  //     icon: html,
+  //   },
+  //   {
+  //     name: "CSS",
+  //     icon: css,
+  //   },
+  //   {
+  //     name: "JavaScript",
+  //     icon: javascript,
+  //   },
+    {
+      name: "Node JS",
+      icon: nodejs,
+    },
+    {
+      name: "Express",
+      icon: express,
+    },
+    {
+      name: "MongoDB",
+      icon: mongodb,
+    },
+    {
+      name: "Python",
+      icon: python,
+    },
+    {
+      name: "Java",
+      icon: java,
+    },
+    {
+      name: "git",
+      icon: git,
+    },
+    {
+      name: "Bootstrap",
+      icon: bootstrap,
+    },
+    {
+      name: "PHP",
+      icon: php,
+    },
   {
     name: "HTML 5",
     icon: html,
@@ -80,6 +149,10 @@ const technologies = [
     icon: jquery,
   },
   {
+    name: "TypeScript",
+    icon: typescript,
+  },
+  {
     name: "React JS",
     icon: reactjs,
   },
@@ -88,36 +161,76 @@ const technologies = [
     icon: redux,
   },
   {
-    name: "Node JS",
-    icon: nodejs,
+    name: "Flutter",
+    icon: flutter,
   },
   {
-    name: "Express",
-    icon: express,
+    name: "Dart",
+    icon: dart,
   },
   {
-    name: "MongoDB",
-    icon: mongodb,
+    name: "Next.js",
+    icon: nextjs,
   },
   {
-    name: "Python",
-    icon: python,
+    name: "Tailwind CSS",
+    icon: tailwind,
   },
   {
-    name: "Java",
-    icon: java,
+    name: "Material UI",
+    icon: mui,
   },
   {
-    name: "git",
-    icon: git,
+    name: "Firebase",
+    icon: firebase,
   },
   {
-    name: "Bootstrap",
-    icon: bootstrap,
+    name: "Supabase",
+    icon: supabase,
   },
   {
-    name: "PHP",
-    icon: php,
+    name: "MySQL",
+    icon: mysql,
+  },
+  {
+    name: "PostgreSQL",
+    icon: postgresql,
+  },
+  {
+    name: "FastAPI",
+    icon: fastapi,
+  },
+  {
+    name: "REST API",
+    icon: api,
+  },
+  {
+    name: "Docker",
+    icon: docker,
+  },
+  {
+    name: "GitHub",
+    icon: github,
+  },
+  {
+    name: "Linux",
+    icon: linux,
+  },
+  {
+    name: "C++",
+    icon: cpp,
+  },
+  {
+    name: "JSON",
+    icon: json,
+  },
+  {
+    name: "Dio",
+    icon: dio,
+  },
+  {
+    name: "BLoC",
+    icon: bloc,
   },
 ];
 
