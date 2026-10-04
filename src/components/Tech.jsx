@@ -34,9 +34,10 @@ function TechBall({ icon, position }) {
 }
 
 const Tech = () => {
-  const cols = 10;
+  const isMobile = window.innerWidth < 768;
 
-  // Grid spacing
+  // KEEPING YOUR DESKTOP CODE EXACTLY THE SAME
+  const cols = isMobile ? 4 : 10;
   const spacingX = 2;
   const spacingY = 2;
 
@@ -45,16 +46,15 @@ const Tech = () => {
       <Canvas
         className="w-full h-full"
         camera={{
-          position: [0, 0, 15],
-          fov: 45,
+          position: [0, 0, isMobile ? 20 : 15],
+          fov: isMobile ? 45 : 45,
         }}
       >
         <Suspense fallback={null}>
           <ambientLight intensity={1.2} />
           <directionalLight position={[2, 2, 5]} intensity={1} />
 
-          {/* Move entire grid down to center it */}
-          <group position={[0, -2, 0]}>
+         <group position={isMobile ? [0, 2, 0] : [0, -2, 0]}>
             {technologies.map((tech, index) => {
               const row = Math.floor(index / cols);
               const col = index % cols;
@@ -63,11 +63,20 @@ const Tech = () => {
                 <TechBall
                   key={tech.name}
                   icon={tech.icon}
-                  position={[
-                    (col - (cols - 1) / 2) * spacingX,
-                    (2.5 - row) * spacingY,
-                    0,
-                  ]}
+                  position={
+                    isMobile
+                      ? [
+                          (index % 4) * 2 - 3, // 4 columns on mobile
+                          (2.5 - Math.floor(index / 4)) * 2,
+                          0,
+                        ]
+                      : [
+                          // YOUR ORIGINAL DESKTOP CALCULATION
+                          (col - (cols - 1) / 2) * spacingX,
+                          (2.5 - row) * spacingY,
+                          0,
+                        ]
+                  }
                 />
               );
             })}
@@ -76,10 +85,10 @@ const Tech = () => {
           <OrbitControls
             enableZoom={false}
             enablePan={false}
-            minAzimuthAngle={-Math.PI / 6} // -30°
-            maxAzimuthAngle={Math.PI / 6}  // +30°
-            minPolarAngle={Math.PI / 3}    // 60°
-            maxPolarAngle={(5 * Math.PI) / 9} // 100°
+            minAzimuthAngle={-Math.PI / 6}
+            maxAzimuthAngle={Math.PI / 6}
+            minPolarAngle={Math.PI / 3}
+            maxPolarAngle={(5 * Math.PI) / 9}
           />
         </Suspense>
 
