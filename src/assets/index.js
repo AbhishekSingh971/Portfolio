@@ -59,6 +59,7 @@ import express from './tech/express.png';
 
 import codsoft from './company/codsoft.png';
 import ibm from './company/ibm.png';
+import sathee from './company/sathee.png';
 
 import weather from './projects/weather.png';
 import disney from './projects/Disney.png';
@@ -129,6 +130,7 @@ export {
   movie,
   codsoft,
   ibm,
+  sathee,
   ecommerce,
   whatsapp,
   cargoa

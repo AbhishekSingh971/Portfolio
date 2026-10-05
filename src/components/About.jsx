@@ -34,8 +34,11 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-taupe text-[18px] max-w-3xl leading-[30px]"
       >
-      I am a positive, enthusiastic and competent Web Developer who, over the years, has built up a diverse range of skills, qualities and attributes that guarantee I will perform highly in this role. I have extensive experience working both alone and as part of a team on often time-sensitive, challenging web development projects that require outstanding creative and technical capabilities and the ability to ensure all work is optimized across a wide range of platforms. I take my work as a Web Developer seriously and this means I always ensure my skills are kept up to date within this rapidly changing industry. If you hire me as your Web Developer, I assure you I will fit into your team quickly, I will always put the commercial needs of your business at the forefront of everything I do, and the work I carry out will be consistent to a first-class standard.
-      </motion.p>
+      I'm a passionate Full Stack and Mobile Application Developer who enjoys turning ideas into high-quality digital products. I specialize in building responsive web applications, cross-platform mobile apps, and scalable backend systems with a strong focus on performance, user experience, and clean architecture.<br></br>
+
+My expertise includes Flutter, React.js, Next.js, Node.js, FastAPI, Supabase, Firebase, MongoDB, MySQL, and modern development tools. I enjoy working across the entire development lifecycle—from designing intuitive user interfaces to building secure APIs and optimizing application performance.<br></br>
+
+I believe in writing maintainable code, continuously learning new technologies, and solving real-world problems through software. Whether it's developing mobile apps, creating modern web experiences, or architecting backend services, I strive to build solutions that are reliable, efficient, and impactful.</motion.p>
 
       <div className="mt-20 flex flex-wrap gap-10">
         {services.map((service, index) => (

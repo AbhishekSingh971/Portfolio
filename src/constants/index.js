@@ -42,6 +42,7 @@ import {
   movie,
   codsoft,
   ibm,
+  sathee,
   express,
   ecommerce,
   whatsapp,
@@ -235,20 +236,6 @@ const technologies = [
 ];
 
 const experiences = [
-  // {
-  //   title: 'Front-End Developer',
-  //   company_name: 'Cover Hunt',
-  //   icon: coverhunt,
-  //   iconBg: '#333333',
-  //   date: 'Aug 2021 - Feb 2022',
-  // },
-  // {
-  //   title: 'Mentor (Volunteer)',
-  //   company_name: 'Microverse',
-  //   icon: microverse,
-  //   iconBg: '#333333',
-  //   date: 'Mar 2022 - May 2022',
-  // },
   {
     title: "Front-end Development",
     company_name: "IBM",
@@ -258,10 +245,31 @@ const experiences = [
   },
   {
     title: "Web Development",
-    company_name: "Codsof",
+    company_name: "Codsoft",
     icon: codsoft,
     iconBg: "#333333",
     date: "Aug 2023 - Sep 2023",
+  },
+  {
+    title: "Software Developer Intern",
+    company_name: "Prutor AI",
+    icon: sathee,
+    iconBg: "#333333",
+    date: "Feb 2024 - Jun 2024",
+  },
+  {
+    title: "Web Developer",
+    company_name: "Prutor AI",
+    icon: sathee,
+    iconBg: "#333333",
+    date: "Jun 2024 - Dec 2025",
+  },
+  {
+    title: "Software Developer",
+    company_name: "Prutor AI",
+    icon: sathee,
+    iconBg: "#333333",
+    date: "Jan 2026 - Present",
   },
 ];
 
